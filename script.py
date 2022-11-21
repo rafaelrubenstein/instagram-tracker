@@ -1,5 +1,4 @@
 import openpyxl
-import pandas as pd
 
 # open data from instagram
 following_path = "following.xlsx"
