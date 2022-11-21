@@ -1,8 +1,10 @@
 import openpyxl
 
-# open data from instagram
-following_path = "following.xlsx"
-followers_path = "followers.xlsx"
+# open the converted data from instagram
+
+following_path = # FilePath For excel sheet
+followers_path = # FilePath For excel sheet
+
 # create two workbook objects
 following_wk_obj = openpyxl.load_workbook(following_path)
 followers_wk_obj = openpyxl.load_workbook(followers_path)
